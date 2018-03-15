@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "index.js",
   "name": "@selleo/eslint-config-react",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Selleo/eslint-config-react.git"
@@ -23,7 +23,7 @@
   "dependencies": {
     "babel-eslint": "^8.2.2",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-config-react-app": "^2.1.0",
+    "eslint-config-react-app": "^3.0.0-next.47d2d941",
     "eslint-plugin-flowtype": "^2.46.1",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",

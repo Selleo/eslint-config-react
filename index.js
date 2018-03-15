@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['eslint:recommended', 'react', 'react-app', 'prettier', 'plugin:react/recommended'],
+  extends: ['eslint:recommended', 'react-app', 'prettier', 'plugin:react/recommended'],
   env: {
     browser: true,
     es6: true,
@@ -7,7 +7,7 @@ module.exports = {
     node: true,
   },
   parser: 'babel-eslint',
-  plugins: ['import', 'react'],
+  plugins: ['import', 'react', 'prettier'],
   rules: {
     'no-unused-vars': [
       'error',

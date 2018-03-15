@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:react-native/all'],
+  extends: ['eslint:recommended', 'react-app', 'prettier', 'plugin:react/recommended'],
   env: {
     browser: true,
     es6: true,
@@ -34,6 +34,13 @@ module.exports = {
         ignoreCase: false,
       },
     ],
+    "prettier/prettier": ["error", {
+      "singleQuote": true,
+      "trailingComma": "all",
+      "bracketSpacing": true,
+      "jsxBracketSameLine": true,
+      "parser": "flow"
+    }]
     'react/no-unused-prop-types': 'error',
     'react/prop-types': ['error', { skipUndeclared: true }],
     'linebreak-style': ['error', 'unix'],
@@ -47,5 +54,10 @@ module.exports = {
     XMLHttpRequest: true,
     __DEV__: true,
     fetch: true,
+  },
+  configs: {
+    'react-native': {
+      plugins: ['plugin:react-native/all'],
+    },
   },
 }

@@ -7,7 +7,7 @@ module.exports = {
     node: true,
   },
   parser: 'babel-eslint',
-  plugins: ['import', 'react', 'react-native'],
+  plugins: ['import', 'react'],
   rules: {
     'no-unused-vars': [
       'error',
@@ -34,13 +34,16 @@ module.exports = {
         ignoreCase: false,
       },
     ],
-    "prettier/prettier": ["error", {
-      "singleQuote": true,
-      "trailingComma": "all",
-      "bracketSpacing": true,
-      "jsxBracketSameLine": true,
-      "parser": "flow"
-    }]
+    'prettier/prettier': [
+      'error',
+      {
+        singleQuote: true,
+        trailingComma: 'all',
+        bracketSpacing: true,
+        jsxBracketSameLine: true,
+        parser: 'flow',
+      },
+    ],
     'react/no-unused-prop-types': 'error',
     'react/prop-types': ['error', { skipUndeclared: true }],
     'linebreak-style': ['error', 'unix'],
@@ -54,10 +57,5 @@ module.exports = {
     XMLHttpRequest: true,
     __DEV__: true,
     fetch: true,
-  },
-  configs: {
-    'react-native': {
-      plugins: ['plugin:react-native/all'],
-    },
   },
 }

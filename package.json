@@ -1,12 +1,11 @@
 {
   "author": "Damian Sznajder <damsznajder@gmail.com>",
-  "description":
-    "ESLint config which combines recommended, import, react-app and react-native plugins",
+  "description": "ESLint config which combines recommended, import, react-app and react-native plugins",
   "homepage": "https://github.com/Selleo/eslint-config-react#readme",
   "license": "MIT",
   "main": "index.js",
   "name": "@selleo/eslint-config-react",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Selleo/eslint-config-react.git"
@@ -14,7 +13,13 @@
   "bugs": {
     "url": "https://github.com/Selleo/eslint-config-selleo/issues"
   },
-  "keywords": ["eslint", "eslint-config", "selleo", "react", "react-native"],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "selleo",
+    "react",
+    "react-native"
+  ],
   "dependencies": {
     "babel-eslint": "^8.2.2",
     "eslint-config-prettier": "^2.9.0",
@@ -22,8 +27,8 @@
     "eslint-plugin-flowtype": "^2.46.1",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
     "prettier": "1.11.1"
   },
   "devDependencies": {

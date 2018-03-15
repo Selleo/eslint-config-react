@@ -49,8 +49,14 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
     'object-curly-spacing': ['error', 'always'],
     'react/prefer-stateless-function': 'off',
-    indent: ['error', 2],
-    quotes: ['error', 'single'],
+    indent: ['error', 2, { SwitchCase: 1 }],
+    quotes: [
+      'error',
+      'single',
+      {
+        avoidEscape: true,
+      },
+    ],
     semi: ['warn', 'never'],
   },
   globals: {

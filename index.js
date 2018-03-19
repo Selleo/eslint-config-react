@@ -14,7 +14,7 @@ module.exports = {
     'react/no-unused-prop-types': 'error',
     'react/prefer-stateless-function': 'off',
     'react/prop-types': ['error', { skipUndeclared: true }],
-    indent: ['error', 2, { SwitchCase: 1 }],
+    indent: 'off',
     quotes: ['error', 'single', { avoidEscape: true }],
     semi: ['warn', 'never'],
     'no-unused-vars': [

@@ -13,7 +13,7 @@ module.exports = {
     'object-curly-spacing': ['error', 'always'],
     'react/no-unused-prop-types': 'error',
     'react/prefer-stateless-function': 'off',
-    'react/prop-types': ['error', { skipUndeclared: true }],
+    'react/prop-types': 'error',
     indent: 'off',
     quotes: ['error', 'single', { avoidEscape: true }],
     semi: ['warn', 'never'],
@@ -39,7 +39,7 @@ module.exports = {
       {
         callbacksLast: false,
         shorthandFirst: false,
-        ignoreCase: false,
+        ignoreCase: true,
       },
     ],
     'prettier/prettier': [

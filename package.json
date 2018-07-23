@@ -1,11 +1,12 @@
 {
   "author": "Damian Sznajder <damsznajder@gmail.com>",
-  "description": "ESLint config which combines recommended, import, react-app and react-native plugins",
+  "description":
+    "ESLint config which combines recommended, import, react-app and react-native plugins",
   "homepage": "https://github.com/Selleo/eslint-config-react#readme",
   "license": "MIT",
   "main": "index.js",
   "name": "@selleo/eslint-config-react",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Selleo/eslint-config-react.git"
@@ -13,26 +14,20 @@
   "bugs": {
     "url": "https://github.com/Selleo/eslint-config-selleo/issues"
   },
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "selleo",
-    "react",
-    "react-native"
-  ],
+  "keywords": ["eslint", "eslint-config", "selleo", "react", "react-native"],
   "dependencies": {
-    "babel-eslint": "^8.2.2",
+    "babel-eslint": "^8.2.6",
     "eslint-config-prettier": "^2.9.0",
     "eslint-config-react-app": "^3.0.0-next.47d2d941",
-    "eslint-plugin-flowtype": "^2.46.1",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-react": "^7.7.0",
-    "prettier": "1.11.1"
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0",
+    "prettier": "1.13.7"
   },
   "devDependencies": {
-    "eslint": "^4.18.2"
+    "eslint": ">=4"
   },
   "peerDependencies": {
     "eslint": "^4.0.0"
